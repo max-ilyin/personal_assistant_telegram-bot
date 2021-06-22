@@ -7,7 +7,7 @@ import config
 
 from weather import get_current_weather
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot("https://py-personal-assistant-bot.herokuapp.com/" + config.TOKEN)
 
 user_data = {}
 
